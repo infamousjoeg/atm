@@ -2,7 +2,7 @@
 An ATM in the console
 
 ## Usage
-Start the ./atm binary and enter one of the following commands:
+Start the `./atm` binary and enter one of the following commands:
 ```
 authorize <account_id> <pin>
 withdraw <amount>
@@ -14,7 +14,7 @@ end
 ```
 
 ## Development
-To compile the code execute execute the following command in the root directory:
+To compile the code execute execute the following command in the project root directory:
 ```bash
 go build -o atm cmd/atm/main.go
 ```
@@ -25,7 +25,7 @@ A file called `./atm` will appear in your current working directory to run this 
 ```
 
 ## Testing
-To run all tests in the suite execute the following in the root directory:
+To run all tests in the suite execute the following in the project root directory:
 ```bash
 go test
 ```
