@@ -2,7 +2,7 @@
 An ATM in the console
 
 ## Usage
-Start the ./atm binary and then enter in one of the following commands
+Start the ./atm binary and enter one of the following commands:
 ```
 authorize <account_id> <pin>
 withdraw <amount>
@@ -19,7 +19,7 @@ To compile the code execute execute the following command in the root directory:
 go build -o atm cmd/atm/main.go
 ```
 
-A file called `./atm` will appear in your current working directory to run this file simply call it:
+A file called `./atm` will appear in your current working directory to run this file simply execute it:
 ```bash
 ./atm
 ```
